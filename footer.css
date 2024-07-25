@@ -1,0 +1,28 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000; /* Black background */
+    height: 60px; /* Height of the footer */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 0 20px; /* Padding for spacing */
+    z-index: 1000;
+}
+
+.footer-icon {
+    margin: 0 15px; /* Space between icons */
+}
+
+.footer-icon img {
+    width: 40px; /* Icon size */
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.footer-icon img:hover {
+    opacity: 0.7; /* Slightly dim on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
